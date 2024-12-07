@@ -1,0 +1,65 @@
+@use '../_variables.scss';
+@use '../_mixines.scss';
+
+
+/*css footer*/
+
+footer {
+    background-color: variables.$color-secondary;
+    color: variables.$color-text;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: variables.$color-footer; 
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: variables.$color-hover-text; 
+}
+
+.newsletter-input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.newsletter-button {
+    @include mixines.button-style(
+        variables.$color-footer, 
+        variables.$color-text, 
+        variables.$color-primary
+    );
+}

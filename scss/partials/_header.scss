@@ -1,0 +1,70 @@
+@use '../variables.scss';
+
+/* css header Navbar principal */
+.promo-banner {
+    background-color: variables.$color-primary;
+    color: variables.$color-text;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    top: 30px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: variables.$color-secondary;
+    padding: 10px 20px;
+    color: variables.$color-text;
+    box-shadow: 0px 10px 15px variables.$color-shadow;
+    position: fixed;
+    z-index: 1000;
+}
+
+/* Logo */
+.logo img {
+    padding-left: 10px;
+    width: 90px;
+    height: 40px;
+}
+
+/* Estilos para los enlaces de navegación */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    justify-content: center;
+}
+
+.nav-links a {
+    color: variables.$color-text;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+.nav-links a:hover {
+    background-color: variables.$color-hover-bg;
+    color: variables.$color-hover-text;
+    border-radius: 5px;
+}
+
+/* Estilos para la barra de búsqueda */
+.search-container {
+    padding-right: 10px;
+}
+
+.search-input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+

@@ -1,0 +1,97 @@
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 10px 10px;
+    }
+
+    .logo {
+        margin-bottom: 10px; 
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row; 
+        gap: 10px;
+        overflow-x: auto; 
+        white-space: nowrap; 
+    }
+
+    .search-container {
+        width: 100%; 
+        margin-top: 10px;
+    }
+
+    .search-input {
+        width: 100%; 
+        width: 100%;
+        padding: 8px;
+        font-size: 14px;
+        border-radius: 5px;
+        border: none;
+    }
+    .Colleccion{
+        padding-top: 80px;
+        text-align: center;
+    }
+}
+@media (max-width: 480px) {
+    
+    
+   .promo-banner {
+        height: 50px; 
+        font-size: 10px;
+    }
+    .navbar {
+        align-items: center;
+    }
+    .nav-links a {
+        font-size: 12px;
+        padding: 4px 6px;
+    }
+    .logo img {
+        width: 70px;
+    }
+    .Colleccion {
+        
+        font-size: 16px;
+    }
+    .carousel-inner img {
+        max-height: 400px;
+    }
+    .footer-section h3 {
+        font-size: 14px;
+    }
+    .footer-section p, .footer-section a {
+        font-size: 12px;
+    }
+    .newsletter-input, .newsletter-button {
+        width: 100%;
+    }
+    .productos-hombre {
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .producto {
+        padding-top: 600px;
+        width: 100%;  
+        padding: 8px;
+    }
+
+    .producto img {
+        height: 200px; 
+    }
+
+    .producto .nombre, .producto .precio {
+        font-size: 14px;
+    }
+
+    .btn-comprar {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+}
